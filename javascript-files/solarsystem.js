@@ -8,31 +8,11 @@ var SolarSystem = (function() {
 	var age = 0;
 
 	return {
-		getPlanets: function() {
-			return planets;
-		},
-		getPlanetsPeopleLandedOn: function() {
-			return numPlanetsPeopleLandedOn;
-		},
-		setPlanetsLandedPeopleOn: function() {
-			numPlanetsPeopleLandedOn++;
-		},
 		getDwarfPlanets: function() {
 			return "the are rejects";
 		},
 		setDwarfPlanets: function() {
 			dwarfPlanets.push(lumpOfRock);
 		}
-
 	}
 })();
-
-// console.log("planets: ", SolarSystem.getPlanets());
-
-// console.log("planets people landed on: ", SolarSystem.getPlanetsPeopleLandedOn());
-
-// SolarSystem.setSpaceships("Voyager 1");
-// SolarSystem.setSpaceships("Voyager 2");
-// SolarSystem.setSpaceships("Gemini");
-// SolarSystem.setSpaceships("Apollo");
-// console.log(SolarSystem.getSpaceships());
