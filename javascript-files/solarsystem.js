@@ -22,18 +22,6 @@ var SolarSystem = (function() {
 		},
 		setDwarfPlanets: function() {
 			dwarfPlanets.push(lumpOfRock);
-		},
-		getStars: function() {
-			return stars;
-		},
-		setStars: function() {
-			stars.push(newStar);
-		},
-		getSolarSystemAge: function() {
-			return age;
-		},
-		setSolarSystemAge: function() {
-			age++;
 		}
 
 	}
